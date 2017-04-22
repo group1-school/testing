@@ -1,0 +1,121 @@
+{
+    "timeline": {
+        "data": [{
+                "name": "Band 1",
+                "symbol": "http://www.iconsdb.com/icons/preview/orange/book-xxl.png",
+                "symbolSize": "30"
+            },
+            {
+                "name": "Band 2",
+                "symbol": "http://www.iconsdb.com/icons/preview/orange/book-xxl.png",
+                "symbolSize": "30"
+            },
+            {
+                "name": "Band 3",
+                "symbol": "http://www.iconsdb.com/icons/preview/orange/book-xxl.png",
+                "symbolSize": "30"
+            },
+        ],
+        "type": "number",
+        "symbolRotate": "30",
+        "playInterval": "1500",
+        "loop": true,
+        "autoplay": true,
+        "symbol": "image://picture/moon.png",
+        "symbolSize": "15"
+    },
+
+    "options": [{
+            "title": {
+                "text": "18區各Banding學校數量",
+                "subtext": "\nUnit : Terajoule"
+
+
+            },
+            "tooltip": {
+                "trigger": "item",
+                "formatter": "{a} ，{b} :{c} ,{d} %"
+            },
+
+            "legend": {
+                "right": "25%",
+                "top": "60%",
+                "orient": "vertical",
+                "data": ["中西區", "九龍城區", "元朗區", "北區"
+,"南區", "大埔區", "屯門區", "東區" ,"沙田區", "油尖旺區" ,"深水埗區", "灣仔區", "荃灣區", "葵青區", "西貢區", "觀塘區", "離島區", "黃大仙區"]
+            },
+
+            "toolbox": {
+                "show": true,
+                "feature": {
+                    "dataView": {
+                        "show": true,
+                        "readOnly": false
+                    },
+                    "restore": {
+                        "show": true
+                    },
+                    "saveAsImage": {
+                        "show": true
+                    }
+                }
+            },
+            "series": [{
+                "name": "Band 1",
+                "type": "pie",
+                "center": ["50%", "45%"],
+                "radius": "50%",
+                "data": [{
+                    "value": "9",
+                    "name": "中西區"
+                }, {
+                    "value": "16",
+                    "name": "九龍城區"
+                }, {
+                    "value": "10",
+                    "name": "元朗區"
+                }, {
+                    "value": "7",
+                    "name": "北區"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "Band 2",
+                "type": "pie",
+                "data": [{
+                    "value": "9",
+                    "name": "中西區"
+                }, {
+                    "value": "16",
+                    "name": "九龍城區"
+                }, {
+                    "value": "10",
+                    "name": "元朗區"
+                }, {
+                    "value": "7",
+                    "name": "北區"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "Band 3",
+                "type": "pie",
+                "data": [{
+                    "value": "9",
+                    "name": "中西區"
+                }, {
+                    "value": "16",
+                    "name": "九龍城區"
+                }, {
+                    "value": "10",
+                    "name": "元朗區"
+                }, {
+                    "value": "7",
+                    "name": "北區"
+                }]
+            }]
+        },
+}
