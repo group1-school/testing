@@ -1,17 +1,17 @@
 {
     "timeline": {
         "data": [{
-                "name": "Band 1",
+                "name": "1",
                 "symbol": "http://www.iconsdb.com/icons/preview/orange/book-xxl.png",
                 "symbolSize": "30"
             },
             {
-                "name": "Band 2",
+                "name": "2",
                 "symbol": "http://www.iconsdb.com/icons/preview/orange/book-xxl.png",
                 "symbolSize": "30"
             },
             {
-                "name": "Band 3",
+                "name": "3",
                 "symbol": "http://www.iconsdb.com/icons/preview/orange/book-xxl.png",
                 "symbolSize": "30"
             },
@@ -28,8 +28,6 @@
     "options": [{
             "title": {
                 "text": "18區各Banding學校數量",
-                "subtext": "\nUnit : Terajoule"
-
 
             },
             "tooltip": {
@@ -61,7 +59,7 @@
                 }
             },
             "series": [{
-                "name": "Band 1",
+                "name": "1",
                 "type": "pie",
                 "center": ["50%", "45%"],
                 "radius": "50%",
@@ -82,7 +80,7 @@
         },
         {
             "series": [{
-                "name": "Band 2",
+                "name": "2",
                 "type": "pie",
                 "data": [{
                     "value": "9",
@@ -101,7 +99,7 @@
         },
         {
             "series": [{
-                "name": "Band 3",
+                "name": "3",
                 "type": "pie",
                 "data": [{
                     "value": "9",
